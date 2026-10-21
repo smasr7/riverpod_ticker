@@ -9,3 +9,4 @@ class TickerPage extends ConsumerWidget {
     return const Scaffold(body: Center(child: Text('Ticker')));
   }
 }
+
