@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 import 'ticker_page.dart';
 
-void main() => runApp(const ProviderScope(child:TickerApp()));
+void main() => runApp(const ProviderScope(child: TickerApp()));
 
 class TickerApp extends StatelessWidget {
   const TickerApp({super.key});
-
 
   @override
   Widget build(BuildContext context) => MaterialApp(
